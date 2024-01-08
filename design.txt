@@ -1,0 +1,6 @@
+The visual part of the game is done by Turtle. Each circle, peg and message are connected to a turtle instance. So we use
+each individual turtle to draw them rather than use a public turtle.When user selects the color and press the check button,
+the color will be compared to the answer and the pegs will display the result.
+
+After the game finish, if the users fails, nothing will be recorded. If user success, his/her current score will be compared to his/her
+previous best score and the updated score will be written into a leaderboard file.
